@@ -48,8 +48,8 @@ var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
         var play=false;
         $('body').on('touchstart',function(){
         	if(play==false){
-            $('audio').play();
-            play=true;
+              audio.play();
+              play=true;
           }     
         })
     }
