@@ -241,6 +241,10 @@ text-decoration: none;
   width: 100%;
   margin:0 auto;
 }
+ #ds-wrapper #ds-reset button{
+  width: 240px !important;
+  height: 60px !important;
+}
 .duoshuo #ds-thread #ds-reset .ds-user-name{
   color: #1E90FF !important;
 }
