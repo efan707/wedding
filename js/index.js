@@ -45,6 +45,13 @@ var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
         $(".section .heart").css('display', 'none');
         $(".section .mainhomepage").css('display', 'none');
         $("#album #iw_thumbs h2").css('display', 'none');
+        var play=false;
+        $('body').on('touchstart',function(){
+        	if(play==false){
+            $('audio').play();
+            play=true;
+          }     
+        })
     }
 /******************第一次登录提示******************************
 var myCookie=getCookie("cookieName");
